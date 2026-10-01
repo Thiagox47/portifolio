@@ -1,0 +1,11 @@
+.git
+.gitignore
+.impeccable
+.env
+.env.*
+node_modules
+dist
+*.log
+README.md
+Thumbs.db
+.DS_Store
