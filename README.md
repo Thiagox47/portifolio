@@ -5,10 +5,3 @@ Meu portfólio profissional, criado para apresentar projetos, experiências e fo
 ### Tecnologias
 
 HTML · CSS · JavaScript · Vite
-
-### Executar localmente
-
-```bash
-npm install
-npm run dev
-```
