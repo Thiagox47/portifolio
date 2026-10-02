@@ -60,7 +60,12 @@ if ('IntersectionObserver' in window) {
 
     if (!visible) return;
     const currentId = `#${visible.target.id}`;
-    navLinks.forEach((link) => link.classList.toggle('is-active', link.getAttribute('href') === currentId));
+    navLinks.forEach((link) => {
+      const isCurrent = link.getAttribute('href') === currentId;
+      link.classList.toggle('is-active', isCurrent);
+      if (isCurrent) link.setAttribute('aria-current', 'page');
+      else link.removeAttribute('aria-current');
+    });
   }, { rootMargin: '-20% 0px -65% 0px', threshold: [0, 0.1, 0.5] });
 
   sections.forEach((section) => sectionObserver.observe(section));

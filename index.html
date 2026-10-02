@@ -18,7 +18,7 @@
     <meta name="twitter:title" content="Thiago Vinicius | Back-end Python e Automações" />
     <meta name="twitter:description" content="APIs, automações, integrações e sistemas web para operações reais." />
     <meta name="twitter:image" content="/og-cover.svg" />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon.svg?v=2" type="image/svg+xml" sizes="any" />
     <link rel="preload" href="/styles.css" as="style" />
     <link rel="stylesheet" href="/styles.css" />
     <script type="application/ld+json">
@@ -41,19 +41,24 @@
     <header class="site-header" data-header>
       <div class="header-inner container">
         <a class="brand" href="#inicio" aria-label="TX — Thiago Vinicius, início">
-          <span class="brand-mark" aria-hidden="true">TX</span>
+          <span class="brand-mark" aria-hidden="true"><img src="/favicon.svg?v=2" alt="" width="38" height="38" /></span>
           <span class="brand-name">Thiago Vinicius</span>
         </a>
 
         <nav class="desktop-nav" aria-label="Navegação principal">
-          <a href="#inicio" class="nav-link is-active">Início</a>
+          <a href="#inicio" class="nav-link is-active" aria-current="page">Início</a>
           <a href="#projetos" class="nav-link">Projetos</a>
           <a href="#servicos" class="nav-link">Especialidades</a>
           <a href="#sobre" class="nav-link">Sobre</a>
           <a href="#tecnologias" class="nav-link">Tecnologias</a>
         </nav>
 
-        <a class="button button-sm header-cta" href="#contato">Vamos conversar <span aria-hidden="true">↗</span></a>
+        <a class="button button-sm header-cta" href="#contato">
+          <span>Vamos conversar</span>
+          <svg class="header-cta-icon" aria-hidden="true" viewBox="0 0 16 16" fill="none">
+            <path d="M4 12 12 4M6 4h6v6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </a>
 
         <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-menu">
           <span></span><span></span>
@@ -62,12 +67,12 @@
 
       <div class="mobile-menu" id="mobile-menu" aria-hidden="true" inert>
         <nav aria-label="Navegação mobile">
-          <a href="#inicio">Início <span>01</span></a>
-          <a href="#projetos">Projetos <span>02</span></a>
-          <a href="#servicos">Especialidades <span>03</span></a>
-          <a href="#sobre">Sobre <span>04</span></a>
-          <a href="#tecnologias">Tecnologias <span>05</span></a>
-          <a href="#contato">Contato <span>06</span></a>
+          <a href="#inicio" class="is-active" aria-current="page">Início</a>
+          <a href="#projetos">Projetos</a>
+          <a href="#servicos">Especialidades</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#tecnologias">Tecnologias</a>
+          <a href="#contato">Contato</a>
         </nav>
         <div class="mobile-menu-footer">
           <p>Disponível para novos projetos</p>
@@ -100,12 +105,6 @@
                 <a class="button button-secondary" href="#contato">Vamos conversar <span aria-hidden="true">↗</span></a>
               </div>
             </div>
-          </div>
-
-          <div class="hero-meta reveal-item">
-            <span><i></i> Disponível para novos projetos</span>
-            <span>APIs · Integrações · RPA · Sistemas Web</span>
-            <span class="hero-socials"><a href="https://github.com/thiagox47" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/thiagox47/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://www.instagram.com/thiagovini47/" target="_blank" rel="noreferrer">Instagram</a></span>
           </div>
         </div>
       </section>
@@ -211,20 +210,20 @@
 
           <div class="services-grid">
             <article class="service-card service-featured reveal">
-              <div class="service-top"><span class="service-number">01</span><span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M3 9h18M9 21V9"/></svg></span></div>
+              <div class="service-top"><span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M3 9h18M9 21V9"/></svg></span></div>
               <div><h3>Back-end em Python</h3><p>APIs, autenticação, regras de negócio, bancos de dados e serviços preparados para sustentar aplicações confiáveis.</p></div>
               <div class="service-tags"><span>Python</span><span>APIs</span><span>Dados</span></div>
             </article>
             <article class="service-card reveal">
-              <div class="service-top"><span class="service-number">02</span><span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 4h16v16H4zM4 9h16M9 20V9"/><path d="m13 13 3-1-1 3"/></svg></span></div>
+              <div class="service-top"><span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 4h16v16H4zM4 9h16M9 20V9"/><path d="m13 13 3-1-1 3"/></svg></span></div>
               <div><h3>Automações e RPA</h3><p>Rotinas que executam tarefas repetitivas, coletam dados e conectam etapas para reduzir esforço manual.</p></div>
             </article>
             <article class="service-card reveal">
-              <div class="service-top"><span class="service-number">03</span><span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg></span></div>
+              <div class="service-top"><span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/></svg></span></div>
               <div><h3>APIs e Integrações</h3><p>Conexões entre plataformas, serviços externos e dados para manter informações sincronizadas e processos contínuos.</p></div>
             </article>
             <article class="service-card reveal">
-              <div class="service-top"><span class="service-number">04</span><span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5h16v14H4zM4 10h16M10 10v9"/><path d="M7 7h.01"/></svg></span></div>
+              <div class="service-top"><span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 5h16v14H4zM4 10h16M10 10v9"/><path d="M7 7h.01"/></svg></span></div>
               <div><h3>Sistemas Web</h3><p>Aplicações, painéis administrativos e ferramentas internas alinhadas às regras específicas de cada operação.</p></div>
             </article>
           </div>
@@ -307,7 +306,7 @@
 
     <footer class="site-footer">
       <div class="container footer-top">
-        <a class="brand" href="#inicio"><span class="brand-mark" aria-hidden="true">TX</span><span class="brand-name">Thiago Vinicius</span></a>
+        <a class="brand" href="#inicio"><span class="brand-mark" aria-hidden="true"><img src="/favicon.svg?v=2" alt="" width="38" height="38" /></span><span class="brand-name">Thiago Vinicius</span></a>
         <p>Desenvolvedor de Software<br />Back-end, automações e integrações.</p>
         <div class="footer-links"><a href="#inicio">Topo ↑</a><a href="https://github.com/thiagox47" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/thiagox47/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://www.instagram.com/thiagovini47/" target="_blank" rel="noreferrer">Instagram ↗</a></div>
       </div>
