@@ -4,9 +4,9 @@
   "private": true,
   "description": "Portfólio profissional de Thiago Vinicius",
   "scripts": {
-    "dev": "vite --host 0.0.0.0",
-    "build": "vite build",
-    "preview": "vite preview --host 0.0.0.0"
+    "dev": "vite --configLoader native --host 0.0.0.0",
+    "build": "vite build --configLoader native",
+    "preview": "vite preview --configLoader native --host 0.0.0.0"
   },
   "devDependencies": {
     "vite": "^7.1.7"
