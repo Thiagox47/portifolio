@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Logo TX">
-  <rect x="1" y="1" width="62" height="62" rx="15" fill="#071216" stroke="#65dbff" stroke-opacity=".3" stroke-width="2"/>
-  <path d="M12 12 2 32l10 20v-9L7 32l5-11v-9Z" fill="#43c9f2"/>
-  <path d="M14 18h17v6h-5.5v22h-6V24H14v-6Z" fill="#f4f6f4"/>
-  <path d="M32 18h5l3.5 8 3.5-8h5l-5.5 14L49 46h-5l-3.5-8-3.5 8h-5l5.5-14L32 18Z" fill="#dce2e2"/>
-  <path d="m52 12 10 20-10 20v-9l5-11-5-11v-9Z" fill="#43c9f2"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Ícone de código de Thiago Vinicius">
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="#061014"/>
+  <rect x="2.75" y="2.75" width="58.5" height="58.5" rx="15.25" fill="none" stroke="#65dbff" stroke-opacity=".28" stroke-width="1.5"/>
+  <path d="M25 19 13 32l12 13" fill="none" stroke="#f4f7f7" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m39 19 12 13-12 13" fill="none" stroke="#f4f7f7" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m36 15-8 34" fill="none" stroke="#43c9f2" stroke-width="5" stroke-linecap="round"/>
 </svg>
